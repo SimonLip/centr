@@ -5,7 +5,7 @@ body{
     border: 3px solid gray;
     border-collapse: separate;
     text-indent: initial;
-    border-spacing: 2px;
+
 }
 
 .header__header {
@@ -53,10 +53,11 @@ body{
     display: grid;
     grid-template-columns: 0.5fr 2fr 0.5fr;
 }
-.main__feft-bar a:hover {
+.main__left-bar a:hover {
     font-size: 110%;
-    color: #ED7001;;
+    color: #ED7001;
 }
+
 h1 {
     font-size: 20px;
     color: #ED7001;;
@@ -75,4 +76,65 @@ h1 {
     font-weight: bold;
     font-style: italic;
     text-decoration: underline;
+}
+
+.main__left-bar {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000066;
+    line-height: 18px;
+    padding-left: 0px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    width: 200px;
+   
+    
+
+}
+
+.main__left-bar-a a {
+    text-decoration: none;
+}
+.main__left-bar-a a:hover {
+    text-decoration: underline;
+}
+
+.main__left-bar-a {
+    border: 3px solid gray;
+    padding: 0px;
+    border-spacing: 110px;
+    padding-left: 10px;
+    border-left: #e4eaea;
+    border-bottom: 0px;
+    text-decoration: none;
+    background: #e4eaea;
+    padding-bottom: 10px;
+}
+
+.main__left-bar img {
+    margin: 0px;
+    display: block;
+    width: 197.7px;
+    aspect-ratio: auto 200 / 190;
+    height: 190px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    padding-left: 0px;
+    padding-top: 0px;
+
+}
+.main__center-img {
+    padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.main__center {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.main__center-text {
+    padding: 10px;
 }
