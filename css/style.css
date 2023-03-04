@@ -1,10 +1,11 @@
-body{
+body {
     max-width: 1040px;
     margin: auto;
     font-family: Georgia, "Times New Roman", Times, serif;
     border: 3px solid gray;
     border-collapse: separate;
     text-indent: initial;
+    margin-top: 30px;
 
 }
 
@@ -23,12 +24,11 @@ body{
     width: 100%;
     height: 30px;
     background-color: #809DC0;
-    
-    
+    padding: 0px;
 }
 
-.header__nav-bar a { 
-    color: #fff; 
+.header__nav-bar a {
+    color: #fff;
     margin: auto;
     font-size: 12px;
     background-repeat: repeat;
@@ -41,18 +41,25 @@ body{
     color: #FFFFFF;
     text-decoration: none;
     vertical-align: baseline;
+}
+
+.main__left-bar-a h2 {
+    margin: 0px;
+    padding: 20px;
+    padding-left: 0px;
 
 }
 
 .header__search--a {
     display: grid;
     justify-items: end;
-    
 }
+
 .main {
     display: grid;
-    grid-template-columns: 0.5fr 2fr 0.5fr;
+    grid-template-columns: 1fr 3fr 1fr;
 }
+
 .main__left-bar a:hover {
     font-size: 110%;
     color: #ED7001;
@@ -60,15 +67,19 @@ body{
 
 h1 {
     font-size: 20px;
-    color: #ED7001;;
+    color: #ED7001;
+    ;
     font-weight: bold;
     padding-top: 5px;
     display: flex;
     justify-content: space-around;
     padding-left: 50px;
     padding-right: 50px;
-    text-align: center 
+    text-align: center;
+    max-width: 550px;
+
 }
+
 .header__search--a {
     color: #000066;
     font-family: "Times New Roman", Times, serif;
@@ -87,20 +98,17 @@ h1 {
     padding-bottom: 5px;
     text-decoration: none;
     width: 200px;
-   
-    
-
 }
 
 .main__left-bar-a a {
     text-decoration: none;
 }
+
 .main__left-bar-a a:hover {
     text-decoration: underline;
 }
 
 .main__left-bar-a {
-    border: 3px solid gray;
     padding: 0px;
     border-spacing: 110px;
     padding-left: 10px;
@@ -114,7 +122,7 @@ h1 {
 .main__left-bar img {
     margin: 0px;
     display: block;
-    width: 197.7px;
+    width: 200px;
     aspect-ratio: auto 200 / 190;
     height: 190px;
     overflow-clip-margin: content-box;
@@ -123,18 +131,109 @@ h1 {
     padding-top: 0px;
 
 }
+
 .main__center-img {
     padding: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
     display: block;
+    width: 600px;
 }
 
-.main__center {
+.main__center-img img {
+    width: 550px;
+    margin: auto;
+}
+
+.main__center-bar {
     display: grid;
     grid-template-columns: 1fr;
+    max-width: 600px;
 }
 
 .main__center-text {
     padding: 10px;
+    max-width: 600px;
+}
+
+.main__right-bar {
+    padding: 3pt 3px 3pt 5pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 200px;
+    font-size: 12px;
+}
+
+.main__right-bar h2 {
+    color: #000066;
+    background: #FFffff;
+    font-weight: bold;
+    text-align: left;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #000066;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-left-color: #EFEFED;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.main__right-bar-a-wrapper {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000066;
+    padding-left: 10px;
+    text-decoration: none;
+    padding-right: 10px;
+    display: grid;
+    background: #e4eaea;
+    padding: 15px;
+}
+
+.main__right-bar-a-wrapper a {
+    text-decoration: none;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    max-height: 30px;
+}
+
+p {
+    text-indent: 3ch;
+}
+.main__right-bar-a-wrapper a:hover {
+    font-size: 105%;
+    color: #ED7001;
+}
+.main__right-bar-center {
+    color: #333333;
+    line-height: 1.2em;
+    letter-spacing: normal;
+    text-decoration: none;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 14px;
+    word-spacing: normal;
+    list-style-position: inherit;
+}
+.main__right-bar-center-wrapper {
+    background: #e4eaea;
+    padding: 15px;
+}
+.footer__bar {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    background: #e4eaea;
+}
+.footer__bar a {
+    text-decoration: none;
+}
+.header__search--a {
+    display: grid;
+    justify-content: end;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.header__search--wrapper {
+    padding-top: 20px;
 }
